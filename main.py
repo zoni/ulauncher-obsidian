@@ -1,3 +1,4 @@
+import gi; gi.require_version('Gdk', '3.0') # https://github.com/Ulauncher/Ulauncher/issues/703
 from src.items import show_notes, create_note
 from src.functions import (
     find_note_in_vault,
